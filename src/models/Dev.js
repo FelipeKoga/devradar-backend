@@ -9,7 +9,7 @@ const DevSchema = new moongose.Schema({
   techs: [String],
   location: {
     type: PointSchema,
-    index: '2dsphere'
+    index: "2dsphere"
   }
 });
 
